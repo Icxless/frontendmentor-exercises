@@ -53,17 +53,29 @@ main {
 .sedans button {
     color: var(--brightorange);
 }
+.sedans button:hover {
+    background-color: var(--brightorange);
+    color: white;
+}
 .suvs {
     background-color: var(--darkcyan);
 }
 .suvs button {
     color: var(--darkcyan);
 }
+.suvs button:hover {
+    background-color: var(--darkcyan);
+    color: white;
+}
 .luxury {
     background-color: var(--verydarkcyan);
 }
 .luxury button {
     color: var(--verydarkcyan);
+}
+.luxury button:hover {
+    background-color: var(--verydarkcyan);
+    color: white;
 }
 
 .container {
@@ -90,15 +102,16 @@ main {
     margin-bottom: 3rem;
 }
 .card button {
+    border: 1px solid white;
     font-size: 1rem;
     font-weight: bold;
     margin-top: 3rem;
-    border: none;
     padding: 0.7rem;
     min-width: 8rem;
     border-radius: 25px;
     background-color: white;
     margin-top: auto;
+    cursor: pointer;
 }
 
 /* ============================== Media =================================== */
