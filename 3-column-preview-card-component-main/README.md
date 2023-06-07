@@ -1,6 +1,6 @@
 # Frontend Mentor - Results summary component solution
 
-This is a solution to the [Results summary component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV).
+This is a solution to the [Results 3-column preview card component](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-/hub).
 
 ## Table of contents
 
@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-[Live Site URL](https://3-column-preview-card-component.icxless.dev/)
-[Solution URL]()
+- [Live Site URL](https://3-column-preview-card-component.icxless.dev/)
+- [Solution URL]()
 
 ### Built with
 
