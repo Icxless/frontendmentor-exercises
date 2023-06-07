@@ -26,7 +26,8 @@ Users should be able to:
 
 ### Links
 
-Live Site URL: [Preview](https://icxless.github.io/Results-Summary-Component-Frontend-Mentor-Challenge/)
+- [Live Site URL](https://icx-results-summary-component.pages.dev/)
+- [Solution URL](https://www.frontendmentor.io/solutions/solution-using-html-and-css-with-flex-and-grid-HaxK3b5tEb)
 
 ### Built with
 
