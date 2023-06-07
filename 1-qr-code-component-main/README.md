@@ -19,7 +19,7 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 
 ### Links
 
-- [Live Site URL](https://qr-code-component.icxless.dev)
+- [Live Site URL](https://fm-qr-code-component.pages.dev)
 - [Solution URL](https://www.frontendmentor.io/solutions/qrcode-component-solution-using-simple-css-CVRgnvjglb)
 
 ### Built with

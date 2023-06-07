@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- [Live Site URL](https://3-column-preview-card-component.icxless.dev/)
+- [Live Site URL](https://3-column-preview-card-component-main-aep.pages.dev/)
 - [Solution URL]()
 
 ### Built with
