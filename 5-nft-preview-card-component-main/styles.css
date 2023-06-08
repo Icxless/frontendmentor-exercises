@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+:root {
+    --primary: hsl(215, 51%, 70%);
+    --secondary: hsl(178, 100%, 50%);
+
+    --main-bg: hsl(217, 54%, 11%);
+    --card-bg: hsl(216, 50%, 16%);
+    --line: hsl(215, 32%, 27%);
+    --white: hsl(0, 0%, 100%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    min-height: 100vh;
+    font-family: Outfit;
+    background-color: var(--main-bg);
+    display: flex;
+    flex-direction: column;
+}
+main {
+    display: grid;
+    place-content: center;
+    margin: auto;
+}
+
+.container {
+    max-width: 300px;
+    padding: 1.3rem;
+    background-color: var(--card-bg);
+    border-radius: 15px;
+    box-shadow: 0 15px 50px 20px rgba(0, 0, 0, .15);
+}
+.img-container {
+    position: relative;
+}
+.nft-img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.img-overlay {
+    position: absolute;
+    background-color: hsla(178, 100%, 50%, 0.5);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    opacity: 0;
+}
+.img-overlay:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+.container h1 {
+    padding: 1.5rem 0 1rem 0;
+}
+.container h1 a{
+    color: var(--white);
+    font-weight: 600;
+    font-size: 1.4rem;
+    text-decoration: none;
+}
+.container h1 a:hover {
+    color: var(--secondary);
+    cursor: pointer;
+}
+.nft-description {
+    color: var(--primary);
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+.flex-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1.5rem 0 1.5rem 0;
+}
+.flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+.price span {
+    color: var(--secondary);
+    padding-left: 0.5rem;
+    font-weight: 600;
+}
+.time-left span {
+    color: var(--primary);
+    padding-left: 0.5rem;
+}
+
+.line {
+    border-bottom: 1px solid var(--line);
+}
+
+.creator {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem 0 0.5rem 0;
+}
+.avatar-img {
+    width: 30px;
+    height: 30px;
+    border: 1px solid var(--white);
+    border-radius: 50%;
+}
+.creator p {
+    color: var(--primary);
+    padding-left: 1rem;
+    font-weight: 300;
+}
+.creator p a {
+    color: var(--white);
+    text-decoration: none;
+    font-weight: 300;
+}
+.creator p a:hover {
+    color: var(--secondary);
+}
+
+
+.attribution { font-size: 11px; text-align: center; font-family: 'Courier New', Courier, monospace; color: var(--primary);}
+.attribution a { color: var(--secondary); text-decoration: none;}
