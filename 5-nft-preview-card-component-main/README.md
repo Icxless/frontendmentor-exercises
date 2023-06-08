@@ -1,6 +1,6 @@
 # Frontend Mentor - Results NFT preview card component
 - [Live Site URL](https://icx-5-nft-preview-card-component-main.pages.dev/)
-- [Solution URL]()
+- [Solution URL](https://www.frontendmentor.io/solutions/nft-card-using-flexbox-5vu6h36VP6)
 
 ## Welcome 👋
 
