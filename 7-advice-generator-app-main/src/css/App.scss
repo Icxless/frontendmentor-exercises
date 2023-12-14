@@ -1,0 +1,72 @@
+@import-normalize;
+
+$light-cyan: hsl(193, 38%, 86%);
+$neon-green: hsl(150, 100%, 66%);
+
+$grayish-blue: hsl(217, 19%, 38%);
+$dark-grayish-blue: hsl(217, 19%, 24%);
+$dark-blue: hsl(218, 23%, 16%);
+
+body {
+    min-height: 100svh;
+    background-color: $dark-blue;
+    font-family: "Manrope", sans-serif;
+    display: grid;
+    place-content: center;
+}
+
+.container {
+    background-color: $dark-grayish-blue;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-radius: 25px;
+    max-width: 30rem;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 0.8rem;
+    color: $neon-green;
+    letter-spacing: 0.1rem;
+    margin-bottom: 1rem;
+}
+
+q {
+    font-size: 28px;
+    color: $light-cyan;
+}
+
+.container-btn {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    position: absolute;
+    border-radius: 50%;
+    border: none;
+    text-align: center;
+    display: flex;
+    background-color: $neon-green;
+    padding: 1rem;
+    display: inline-block;
+    transform: translateY(-1.7rem);
+    cursor: pointer;
+    transition: 250ms;
+    &:hover {
+        background-color: hsla(150, 100%, 66%, 0.671);
+        box-shadow: inset 0px 0px 28px 12px rgba(0, 0, 0, 0.1);
+    }
+}
+
+picture {
+    margin: 2rem 0 2rem 0;
+}
+
+p {
+    color: $light-cyan;
+}
